@@ -1,0 +1,32 @@
+{
+	"DB_information": {
+		"hostname": "52.214.9.202",
+		"hostaddr": "",
+		"hostport": "-1",
+		"dbname": "nimbletrack_demo_dev",
+		"dbuser": "postgres",
+		"dbpassword": "s3cret"
+	},
+	"mqtt_client_listener": {
+		"client_id": "BrokerListener",
+		"broker_addr": "localhost",
+		"broker_port": "1883",
+		"broker_keep_alive": "60",
+		"broker_bind_if": "127.0.0.1",
+		"subscription": {
+			"topic": "/tracktio/reader/+/tag",
+			"qos": "0"
+		}
+	},
+	"mqtt_client_publisher": {
+		"client_id": "BrokerPublisher",
+		"broker_addr": "localhost",
+		"broker_port": "8883",
+		"broker_keep_alive": "60",
+		"broker_bind_if": "127.0.0.1",
+		"subscription":{
+			"topic": "/tracktio/reader/+/tag",
+			"qos": "0"
+		}
+	}		
+}

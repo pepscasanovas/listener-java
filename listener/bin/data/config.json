@@ -1,0 +1,21 @@
+{
+	"DB_information": {
+		"hostname": "ec2-107-20-222-114.compute-1.amazonaws.com",
+		"hostaddr": "",
+		"hostport": "-1",
+		"dbname": "d12mou8jqsehl0",
+		"dbuser": "pfyhadxdzawqoh",
+		"dbpassword": "TFrNXd03iZvtN1Nvy81CnaPej0"
+	},
+	"mqtt_client": {
+		"client_id": "BrokerListener",
+		"broker_addr": "localhost",
+		"broker_port": "-1",
+		"broker_keep_alive": "60",
+		"broker_bind_if": "127.0.0.1",
+		"subscription": {
+			"topic": "/tracktio/reader/+/tag",
+			"qos": "0"
+		}
+	}
+}

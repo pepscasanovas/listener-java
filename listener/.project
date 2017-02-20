@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>mqttListener</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Apache Commons</name>
+			<type>2</type>
+			<location>/home/user2/JC/EclipseProjects/uRTLS/listener/libraries/commons-lang3-3.5-src/src/main/java</location>
+		</link>
+		<link>
+			<name>Json</name>
+			<type>2</type>
+			<location>/home/user2/JC/EclipseProjects/uRTLS/listener/libraries/json-simple-master/src/main/java</location>
+		</link>
+		<link>
+			<name>mqtt_paho</name>
+			<type>2</type>
+			<location>/home/user2/JC/EclipseProjects/uRTLS/listener/libraries/paho.mqtt.java-master/org.eclipse.paho.client.mqttv3/src/main/java</location>
+		</link>
+		<link>
+			<name>resources</name>
+			<type>2</type>
+			<location>/home/user2/JC/EclipseProjects/uRTLS/listener/libraries/paho.mqtt.java-master/org.eclipse.paho.client.mqttv3/src/main/resources</location>
+		</link>
+	</linkedResources>
+</projectDescription>
